@@ -1,0 +1,3 @@
+# GUI dependency for factory_data_gui.py.  The core/ package (file format and
+# CSV loaders) needs only the standard library.
+PySide6>=6.5

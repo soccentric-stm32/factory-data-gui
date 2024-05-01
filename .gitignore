@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Build / packaging (PyInstaller)
+build/
+dist/
+*.spec.bak
+*.dmg
+*.zip
+
+# Generated factory data files
+out/
+workspace/
+output/
+*.sys
+*.cal
+*.diag
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

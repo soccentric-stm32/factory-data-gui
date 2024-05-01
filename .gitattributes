@@ -1,0 +1,22 @@
+# Line endings: always check out LF, on every OS.
+#
+# `make test` reads and writes the same CSV and factory data files on Linux,
+# macOS and Windows, and the file format stores CRCs over the bytes.  A CRLF
+# checkout on Windows (Git for Windows defaults to core.autocrlf=true) would
+# make the committed examples differ from what the generators write, so the
+# working tree is normalised to LF everywhere.
+* text=auto eol=lf
+
+# Factory data and assets: never converted, never diffed as text.
+*.png binary
+*.ico binary
+*.icns binary
+*.bin binary
+*.sys binary
+*.cal binary
+*.diag binary
+
+# Archives produced by the packaging scripts.
+*.gz binary
+*.zip binary
+*.dmg binary
