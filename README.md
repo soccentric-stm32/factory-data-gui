@@ -21,3 +21,7 @@ hwval-factory-data inspect out/SC0001.sys
 
 The source in this repository is kept for history only; do not add new
 features here.  Open changes against `factory-station` instead.
+
+## License
+
+Released under the [MIT License](LICENSE) © 2026 Sandesh Ghimire.
